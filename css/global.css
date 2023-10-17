@@ -1,0 +1,48 @@
+/* general setting across webpages */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'verdana';
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+/* navbar style setting */
+.nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 100px;
+    align-items: baseline;
+    background-color: #FFFFFF;
+    position: fixed;
+}
+
+.nav__title {
+    padding: 20px;
+    color: #335576;
+    font-size: x-large
+}
+.nav__link {
+    display: flex;
+}
+.nav__list {
+    padding: 15px;
+    font-size: 20px;
+}
+.nav__list:hover {
+    color: #DB7A4E;
+}
+.nav__list--active {
+    text-decoration: underline;
+    text-decoration-color: #DB7A4E;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+}
