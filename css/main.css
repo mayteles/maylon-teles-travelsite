@@ -1,0 +1,41 @@
+/* hero section */
+.hero {
+    background-color: #FEFAF5;
+    display: flex;
+    padding: 2%;
+}
+
+.hero__slogan {
+    margin: 100px 0 20px 80px;
+    color: #335576;
+    max-width: 65%;
+    min-width: auto;
+    font-size: 42px;
+}
+.hero__description {
+    max-width: 65%;
+    min-width: auto;
+    margin: 0 0 30px 80px;
+    color: #335576;
+}
+.hero__button {
+    margin-left: 80px;
+    border: none;
+    border-radius: 20px;
+    background-color: #DB7A4E;
+    padding: 10px 30px;
+    color: #FEFAF5;
+    transition: 0.4s;
+}
+.hero__button:hover {
+    background-color: #335576;
+    cursor: pointer;
+}
+.hero__aside {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.hero__aside-img {
+    height: 400px;
+}
