@@ -1,0 +1,49 @@
+/* Properties for Hawaii page */
+.main-hawaii-bg{
+    background: url('../assets/Images/hawaii.jpg') center no-repeat;
+    height: 1000px;
+}
+.main-iceland-bg {
+    background: url('../assets/Images/iceland.jpg') center no-repeat;
+    height: 1000px;
+}
+.main-greece-bg {
+    background: url('../assets/Images/greece.jpg') center no-repeat;
+    height: 1000px;
+}
+.main__slogan {
+    color: white;
+    font-size: 100px;
+    padding: 5% 9% 1% 6%;
+    width: 50%;
+}
+
+.cards {
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+}
+
+.card {
+    height: 550px;
+    width: 390px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card__title {
+    font-size: xx-large;
+    text-align: center;
+    border-bottom: 4px solid;
+    width: 340px;
+    margin: 30px auto 44px;
+}
+.card__description {
+    text-align: center;
+    font-size: x-large;
+    padding: 20px;
+    background-color: #FEFAF5;
+    width: 340px;
+    margin: 20px auto;
+}

@@ -53,6 +53,7 @@ a:visited {
     justify-content: space-evenly;
     background-color: #FEFAF5;
     padding: 60px;
+    margin-left: 1%;
 }
 .footer__title {
     color: #335576;

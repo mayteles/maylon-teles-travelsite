@@ -39,3 +39,47 @@
 .hero__aside-img {
     height: 400px;
 }
+/* main page properties */
+.main {
+    margin: 1% 6%;
+}
+.main__headtitle {
+    color: #335576;
+    font-size: xx-large;
+    padding: 40px 0;
+}
+/* cards properties */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+    margin-bottom: 9%;
+}
+.card {
+    height: 600px;
+    width: 390px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    
+}
+.card:hover {
+    opacity: 80%;
+}
+
+.card__img {
+    border-radius: 10px;
+    height: 600px;
+    width: 390px;
+}
+
+.card__title {
+    text-align: right;
+    padding: 15px;
+    font-size: xx-large;
+    position: relative;
+    bottom: 14%;
+    color: #FEFAF5;
+    z-index: 1;
+}
