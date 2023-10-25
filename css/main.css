@@ -6,24 +6,24 @@
 }
 
 .hero__slogan {
-    margin: 100px 0 20px 80px;
+    margin: 6.25rem 0 1.25rem 5rem;
     color: #335576;
     max-width: 65%;
     min-width: auto;
-    font-size: 42px;
+    font-size: 2.625rem;
 }
 .hero__description {
     max-width: 65%;
     min-width: auto;
-    margin: 0 0 30px 80px;
+    margin: 0 0 1.875rem 5rem;
     color: #335576;
 }
 .hero__button {
-    margin-left: 80px;
+    margin-left: 5rem;
     border: none;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     background-color: #DB7A4E;
-    padding: 10px 30px;
+    padding: 0.625rem 1.875rem;
     color: #FEFAF5;
     transition: 0.4s;
 }
@@ -37,7 +37,7 @@
     justify-content: center;
 }
 .hero__aside-img {
-    height: 400px;
+    height: 25rem;
 }
 /* main page properties */
 .main {
@@ -46,7 +46,7 @@
 .main__headtitle {
     color: #335576;
     font-size: xx-large;
-    padding: 40px 0;
+    padding: 2.5rem 0;
 }
 /* cards properties */
 .cards {
@@ -56,11 +56,11 @@
     margin-bottom: 9%;
 }
 .card {
-    height: 600px;
-    width: 390px;
+    height: 37.5rem;
+    width: 24.375rem;
     border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border: 0.063 solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
     cursor: pointer;
     
 }
@@ -69,14 +69,14 @@
 }
 
 .card__img {
-    border-radius: 10px;
-    height: 600px;
-    width: 390px;
+    border-radius: 0.625rem;
+    height: 37.5rem;
+    width: 24.375rem;
 }
 
 .card__title {
     text-align: right;
-    padding: 15px;
+    padding: 0.938rem;
     font-size: xx-large;
     position: relative;
     bottom: 14%;

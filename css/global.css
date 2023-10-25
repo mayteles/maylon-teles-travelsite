@@ -19,14 +19,14 @@ a:visited {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding: 0 100px;
+    padding: 0 6.25rem;
     align-items: baseline;
     background-color: #FFFFFF;
     /* position: fixed; */
 }
 
 .nav__title {
-    padding: 20px;
+    padding: 1.25rem;
     color: #335576;
     font-size: x-large
 }
@@ -34,8 +34,8 @@ a:visited {
     display: flex;
 }
 .nav__list {
-    padding: 15px;
-    font-size: 20px;
+    padding: 0.938rem;
+    font-size: 1.25rem;
 }
 .nav__list:hover {
     color: #DB7A4E;
@@ -43,8 +43,8 @@ a:visited {
 .nav__list--active {
     text-decoration: underline;
     text-decoration-color: #DB7A4E;
-    text-underline-offset: 10px;
-    text-decoration-thickness: 3px;
+    text-underline-offset: 0.625rem;
+    text-decoration-thickness: 0.188rem;
 }
 
 /* footer setting across webpages*/
@@ -52,20 +52,20 @@ a:visited {
     display: flex;
     justify-content: space-evenly;
     background-color: #FEFAF5;
-    padding: 60px;
+    padding: 3.75rem;
     margin-left: 1%;
 }
 .footer__title {
     color: #335576;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
     font-size: x-large;
 }
 .footer__schedule {
     display: flex;
-    column-gap: 50px;
+    column-gap: 3.125rem;
 }
 .footer__subtitle {
-    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
     color: #DB7A4E;
 }
 .footer__time {
@@ -75,6 +75,6 @@ a:visited {
     color: #335576;
 }
 .footer__svg {
-    height: 30px;
-    margin: 20px 40px 0 0;
+    height: 1.875rem;
+    margin: 1.25rem 2.5rem 0 0;
 }
